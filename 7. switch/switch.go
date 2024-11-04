@@ -44,6 +44,12 @@ func main() {
 		}
 	}
 
+	/*
+		A type switch compares types instead of values.
+		You can use this to discover the type of an interface value.
+		In this example, the variable t will have the type corresponding to its clause.
+	*/
+
 	whatAmI(true)
 	whatAmI(1)
 	whatAmI("hey")
