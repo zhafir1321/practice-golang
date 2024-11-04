@@ -22,3 +22,5 @@ func main() {
 		fmt.Println(num, "has multiple digits")
 	}
 }
+
+// there is no ternary if in Go, so you'll need to use a full if statement even for basic conditions.
